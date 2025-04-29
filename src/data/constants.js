@@ -4,7 +4,7 @@ export const Bio = {
   description:
     "I am a highly motivated and adaptable DevOps Engineer with a strong passion for cloud technologies and continuous integration. With a commitment to learning and delivering high-quality, scalable solutions, I thrive on tackling complex challenges. I bring a positive attitude, a growth mindset, and a dedication to improving processes and systems. Ready to contribute to innovative projects, I am focused on achieving impactful results and advancing my skills in cloud infrastructure and automation.",
   github: "https://github.com/abd0hrz",
-  resume: "https://drive.google.com/",
+  resume: "https://github.com/abd0hrz",
   linkedin: "https://www.linkedin.com/in/harizi-bouabdellah/",
   twitter: "https://x.com/",
   insta: "https://www.instagram.com/abdellah_hrz/",
