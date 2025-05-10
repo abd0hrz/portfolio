@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
+const isGithubPages = process.env.DEPLOY_TARGET === 'gh-pages';
+
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
@@ -10,6 +12,9 @@ const nextConfig = {
       'media2.dev.to',
     ],
   },
+  output: 'export',
+  basePath: isGithubPages ? '/portfolio' : '',
+  assetPrefix: isGithubPages ? '/portfolio/' : '',
 };
 
 module.exports = nextConfig;
