@@ -1,5 +1,6 @@
 {
   "name": "portfolio",
+  "homepage": "https://abd0hrz.github.io/portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,7 +8,8 @@
     "build": "next build && next export",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "cross-env DEPLOY_TARGET=gh-pages npm run build && gh-pages -d out"
+    "predeploy": "npm run build",  // Pre-deployment step
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "@apollo/client": "^3.7.1",
