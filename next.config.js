@@ -5,6 +5,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
+    unoptimized: true,
     domains: [
       'media.graphassets.com',
       'res.cloudinary.com',
@@ -12,7 +13,6 @@ const nextConfig = {
       'media2.dev.to',
     ],
   },
-  output: 'export',
   basePath: isGithubPages ? '/portfolio' : '',
   assetPrefix: isGithubPages ? '/portfolio/' : '',
 };

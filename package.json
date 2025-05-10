@@ -8,7 +8,8 @@
     "build": "next build && next export",
     "start": "next start",
     "lint": "next lint",
-    "predeploy": "npm run build",
+    "postexport": "echo > out/.nojekyll",
+    "predeploy": "cross-env DEPLOY_TARGET=gh-pages npm run build",
     "deploy": "gh-pages -d out"
   },
   "dependencies": {
