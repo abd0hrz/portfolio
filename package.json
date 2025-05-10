@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
-    "deploy": "DEPLOY_TARGET=gh-pages npm run build && gh-pages -d out"
+    "start": "next start",
+    "lint": "next lint",
+    "deploy": "cross-env DEPLOY_TARGET=gh-pages npm run build && gh-pages -d out"
   },
   "dependencies": {
     "@apollo/client": "^3.7.1",
