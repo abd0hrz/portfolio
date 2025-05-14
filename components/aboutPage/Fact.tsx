@@ -14,7 +14,7 @@ export default function Fact({ Icon, desc, border }: Props) {
       }`}
     >
       <MyIcon Icon={Icon} />
-      <p className="text-2xl text-gray-300 leading-relaxed tracking-wide text-center mt-4">
+      <p className="text-xl text-gray-300 leading-relaxed tracking-wide text-center mt-4">
         {desc}
       </p>
     </li>

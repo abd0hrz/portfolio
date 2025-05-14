@@ -24,7 +24,7 @@ export default function MyService({ name, Icon, border, desc, last }: Props) {
         <h2 className="capitalize text-[1.6rem] text-gray-300 font-semibold pb-2 pt-4">
           {name}
         </h2>
-        <p className="text-2xl text-gray-500 leading-[1.8] tracking-wide">
+        <p className="text-2xl text-gray-500 leading-[1.6] tracking-wide">
           {desc}
         </p>
       </div>

@@ -10,9 +10,6 @@ export default function Resume() {
       <Title name="resume" />
       <MyResume />
 
-      <Title name="skills" />
-      <Skills />
-
       <Title name="quote" />
       <Testimonial testimonial={quoteData} />
     </section>

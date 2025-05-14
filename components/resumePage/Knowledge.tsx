@@ -11,7 +11,7 @@ export default function Knowledge({ knowledge }: Props) {
     <div className="py-11">
       {knowledge ? (
         knowledge.map((k, idx) => (
-          <div key={idx} className="flex gap-6 items-center mb-6">
+          <div key={idx} className="flex gap-6 items-center mb-5">
             <BsCheckLg className="text-main-orange text-2xl" />
             <span className="text-gray-300 text-2xl">{k}</span>
           </div>

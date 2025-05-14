@@ -5,6 +5,13 @@ import MyServices from "./MyServices"
 import Prices from "./Prices"
 import Testimonials from "./Testimonials"
 import Title from "../Title"
+import dynamic from "next/dynamic";
+import TechnicalSkills from "../TechnicalSkills";
+import Skills from "../resumePage/Skills"
+import Key from "../resumePage/key"
+
+
+const Charts = dynamic(() => import("../Charts"), { ssr: false });
 
 export default function About() {
   return (
@@ -15,6 +22,19 @@ export default function About() {
       <Title name="my services" />
       <MyServices />
 
+      <Title name="Soft Skills" />
+      <Skills />
+      
+
+      <Title name="Technical Skills" />
+      <TechnicalSkills />
+
+      <Title name="skills overview" />
+      <Charts />
+
+      <Title name="Key Achievements" />
+      <Key />
+      
       {/* 
       <Title name="pricing" />
       <Prices />
@@ -27,6 +47,7 @@ export default function About() {
 
       <Title name="fun facts" />
       <Facts />
+    
     </section>
   )
 }

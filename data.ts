@@ -18,11 +18,17 @@ import {
   SiFigma,
   SiFirebase,
   SiFiverr,
+  SiJenkins,
   SiKubernetes,
   SiLinux,
   SiNextdotjs,
   SiNodedotjs,
+  SiOkta,
   SiOwasp,
+  SiSnyk,
+  SiSonarqube,
+  SiThewashingtonpost,
+  SiVault,
 } from 'react-icons/si';
 import About from './components/aboutPage/About';
 import Blogs from './components/blogsPage/Blogs';
@@ -133,23 +139,23 @@ export const services: ServiceData[] = [
   {
     id: 1,
     title: 'DevOps',
-    Icon: SiKubernetes,
+    Icon: SiJenkins,
     description:
-      'Streamlined CI/CD with Docker and AWS, ensuring consistent environments across development, staging, and production.',
+      'Automated build, test, and deployment pipelines for continuous integration and delivery across all environments.',
   },
   {
     id: 2,
-    title: 'Back-end',
+    title: 'Full Stack Development',
     Icon: SiNodedotjs,
     description:
-      'Backend services using Java, Node.js, and Django, with AWS integration',
+      'Building end-to-end applications using the MERN stack, covering both front-end and back-end development.',
   },
   {
     id: 3,
     title: 'Cloud Infrastructure',
     Icon: SiAmazonaws,
     description:
-      'Designing and maintaining secure, scalable cloud solutions using AWS and cloud-native services.',
+      'Design and implementation of scalable, secure cloud architectures on AWS, Azure, and GCP',
   },
   {
     id: 4,
@@ -157,6 +163,20 @@ export const services: ServiceData[] = [
     Icon: SiLinux,
     description:
       'Managed server environments, ensured system stability, security, and performance across various platforms.',
+  },
+  {
+    id: 5,
+    title: 'DevSecOps',
+    Icon: SiSonarqube,
+    description:
+      'Security integration throughout the development lifecycle with automated scanning and compliance.',
+  },
+  {
+    id: 6,
+    title: 'Automation & Orchestration',
+    Icon: SiKubernetes ,
+    description:
+      'Automated deployments, orchestrated workflows, and managed infrastructure to improve efficiency and reliability.',
   },
 ];
 

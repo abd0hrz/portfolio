@@ -10,7 +10,7 @@ export default function Languages({ languages }: Props) {
     <div className="pt-10">
       {languages ? (
         languages.map((l) => (
-          <div key={l.id} className="mb-6">
+          <div key={l.id} className="mb-5">
             <h3 className="capitalize text-2xl text-gray-300 mb-2.5">
               {l.field}
             </h3>

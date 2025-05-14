@@ -25,6 +25,7 @@
     "react-loading-skeleton": "^3.1.0",
     "react-markdown": "^8.0.3",
     "react-tsparticles": "^2.3.2",
+    "recharts": "^2.15.3",
     "remark-gfm": "^3.0.1",
     "swiper": "^8.4.2",
     "tsparticles": "^2.3.2",
