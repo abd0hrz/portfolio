@@ -1,5 +1,6 @@
 import { AiFillLinkedin, AiOutlineGithub } from 'react-icons/ai';
 import {
+  FaCertificate,
   FaDev,
   FaDiscord,
   FaEye,
@@ -87,7 +88,7 @@ export const menus: MenuData[] = [
   {
     id: 7,
     label: 'guest book',
-    Icon: MdComputer,
+    Icon: FaCertificate,
     Component: GuestBook,
   },
 ];
