@@ -8,7 +8,7 @@ import Title from "../Title"
 import dynamic from "next/dynamic";
 import TechnicalSkills from "../TechnicalSkills";
 import Skills from "../resumePage/Skills"
-import Key from "../resumePage/key"
+import Key from "../resumePage/Key"
 
 
 const Charts = dynamic(() => import("../Charts"), { ssr: false });
