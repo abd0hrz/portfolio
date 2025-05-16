@@ -1,5 +1,5 @@
 import { FaGoogle, FaJenkins, FaMicrosoft } from "react-icons/fa";
-import { SiAmazonaws, SiAwsamplify, SiFacebook, SiGooglecloud, SiMicrosoftazure } from "react-icons/si";
+import { SiAmazonaws, SiAwsamplify, SiFacebook, SiFortinet, SiGooglecloud, SiMicrosoftazure, SiOracle } from "react-icons/si";
 import { AiOutlineSwapRight } from "react-icons/ai";
 import Title from "./Title";
 
@@ -17,16 +17,22 @@ const certs = [
     date: "March 2024",
   },
   {
-    name: "AZ-400 Designing and implementing DevOps Solutions",
-    url: "https://example.com/az400",
-    icon: <SiMicrosoftazure className="text-6xl text-blue-600" />,
-    date: "May 2024",
+    name: "Microsoft Certified: Azure Fundamentals",
+    url: "https://www.credly.com/badges/3e2479ea-5354-4020-9428-aee21a51426f",
+    icon: <SiMicrosoftazure className="text-6xl text-[#0078D4]" />,
+    date: "December 2022",
   },
   {
-    name: "AZ-104 Azure Administrator Associate",
-    url: "https://example.com/az104",
-    icon: <FaJenkins className="text-6xl text-blue-600" />,
-    date: "June 2024",
+    name: "Oracle Cloud Infrastructure Certified Foundations Associate",
+    url: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=22DA8DF3D90BD3A3630BED2ACF4EB5F26F5616919FC4E1817CB216F1C469B2FD",
+    icon: <SiOracle className="text-6xl text-[#F80000]" />,
+    date: "August 2022",
+  },
+  {
+    name: "Fortinet Certified Fundamentals Cybersecurity",
+    url: "https://www.credly.com/badges/fda8b87c-6ba9-421e-b546-1a5d41e87b58",
+    icon: <SiFortinet className="text-6xl text-red-600" />,
+    date: "June 2022",
   },
 ];
 
