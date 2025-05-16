@@ -1,10 +1,15 @@
 import { useState } from "react"
 import MenuBtn from "./MenuBtn"
-import { BsBookHalf } from "react-icons/bs"
+import { BsBookHalf, BsPatchCheckFill } from "react-icons/bs"
 import { menus } from "../data"
 import SideMenuLb from "./SideMenuLb"
 import { ReactiveVar, useReactiveVar } from "@apollo/client"
 import { currentMenu } from "../apollo-client"
+import { FaCertificate } from "react-icons/fa"
+import { HiBadgeCheck, HiOutlineBadgeCheck } from "react-icons/hi"
+import { GiDiploma } from "react-icons/gi"
+import { AiOutlineTrophy } from "react-icons/ai"
+import { MdCardMembership } from "react-icons/md"
 
 interface Props {
   showSideMenu: ReactiveVar<boolean>
@@ -33,7 +38,8 @@ export default function Menus({ showSideMenu }: Props) {
         className="h-[7.2rem] rounded-lg bg-gray-900 flex items-center justify-center cursor-pointer group"
       >
         <div className="relative">
-          <BsBookHalf className="text-4xl text-gray-300 transition-all duration-300 group-hover:text-main-orange" />
+          <GiDiploma className="text-5xl text-gray-300 transition-all duration-300 group-hover:text-main-orange" />
+          <span className="mt-1 text-lg text-gray-300 transition-all duration-300 group-hover:text-main-orange">CERT</span>
           {/* <span className="absolute flex items-center justify-center w-6 h-6 text-lg text-gray-800 rounded-full -top-2 -right-3 bg-main-orange">
             0
           </span> */}
